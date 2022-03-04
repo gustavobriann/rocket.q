@@ -1,0 +1,24 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionadas ao dono da página.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavobriann/rocketq.git"
+  },
+  "keywords": [],
+  "author": "Gustavo Brian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavobriann/rocketq/issues"
+  },
+  "homepage": "https://github.com/gustavobriann/rocketq#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}
