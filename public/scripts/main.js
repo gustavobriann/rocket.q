@@ -1,9 +1,14 @@
-import { Modal } from './modal'
+import Modal from './modal.js'
 
 const modal = Modal()
 
 //Pegar todos os botões que existe com a classe check
 const checkButtons = document.querySelectorAll('.actions a.check')
 
-//Abrir modal
-modal.open()
+checkButtons.forEach(button => {
+  //Adicionar a escuta
+  button.addEventListener('click', event => {
+    //Abrir modal
+    modal.open()
+  })
+})
