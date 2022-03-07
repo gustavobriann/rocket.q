@@ -1,11 +1,12 @@
 const express = require('express')
-const { get } = require('express/lib/response')
-const res = require('express/lib/response')
+const QuestionController = require('./controllers/QuestionController')
 
 const route = express.Router()
 
 route.get('/', (req, res) => res.render('index'))
 route.get('/room', (req, res) => res.render('room'))
 route.get('/create-pass', (req, res) => res.render('create-pass'))
+
+route.post('/question/:room/:question/:action', QuestionController.index)
 
 module.exports = route
