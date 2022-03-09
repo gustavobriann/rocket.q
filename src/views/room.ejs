@@ -45,7 +45,7 @@
       <main>
         <section id="question-form">
           <h2>Faça sua pergunta</h2>
-          <form action="">
+          <form action="/question/create/<%= roomId %>" method="POST">
             <label for-id="question" class="sr-only"
               >O que você quer perguntar?</label
             >
@@ -69,13 +69,15 @@
           <h2 class="sr-only">Perguntas da comunidade</h2>
 
           <div class="questions">
+            <% questions.forEach(question =>{ %>
+
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
                   <img src="/images/user.svg" alt="Avatar" />
                 </div>
                 <div class="question">
-                  <p>Qual a direfença entre const, var e let no JavaScript?</p>
+                  <p><%= question.title %></p>
                 </div>
               </div>
 
@@ -91,27 +93,7 @@
               </div>
             </div>
 
-            <div class="question-wrapper">
-              <div class="question-content">
-                <div class="user">
-                  <img src="/images/user.svg" alt="Avatar" />
-                </div>
-                <div class="question">
-                  <p>O que é JavaScript?</p>
-                </div>
-              </div>
-
-              <div class="actions">
-                <a href="#" class="check" data-id="3">
-                  <img src="/images/check.svg" alt="Marcar como lida" />
-                  Marcar como lida
-                </a>
-                <a href="#" class="delete" data-id="3">
-                  <img src="/images/trash.svg" alt="Excluir" />
-                  Excluir
-                </a>
-              </div>
-            </div>
+            <%}); %> <% questionsRead.forEach(questionRead => { %>
 
             <div class="question-wrapper read">
               <div class="question-content">
@@ -119,7 +101,7 @@
                   <img src="/images/user.svg" alt="Avatar" />
                 </div>
                 <div class="question">
-                  <p>O que é TypeScript?</p>
+                  <p><%= questionRead.title %></p>
                 </div>
               </div>
 
@@ -134,6 +116,7 @@
                 </a>
               </div>
             </div>
+            <% }); %>
           </div>
         </section>
       </main>
