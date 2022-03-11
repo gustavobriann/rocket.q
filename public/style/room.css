@@ -35,14 +35,10 @@
 }
 
 /* QUESTION FORM */
-
 #question-form h2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 2.8rem;
+  font: 700 2.8rem 'Poppins', sans-serif;
   color: var(--black);
-  font-weight: 700;
   line-height: 4.2rem;
-
   margin-bottom: 2.4rem;
 }
 
@@ -50,16 +46,13 @@
   border: 0.2rem solid var(--grey-blue);
   padding: 1.6rem;
   border-radius: 0 0.8rem 0.8rem 0.8rem;
-
   margin-bottom: 1.6rem;
 }
 
 #question-form form textarea {
   resize: none;
   background: transparent;
-
   width: 100%;
-
   outline: none;
 }
 
@@ -78,9 +71,7 @@
   align-items: center;
 
   color: var(--icons-details);
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 1.4rem;
+  font: 400 1.4rem 'Poppins', sans-serif;
 }
 
 #question-form form footer > div img {
@@ -94,7 +85,6 @@
 }
 
 /* Questions */
-
 .question-wrapper {
   background: var(--light-blue);
   margin-bottom: 0.8rem;
@@ -159,14 +149,10 @@
   margin-bottom: 1.2rem;
 }
 .no-questions p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 600;
+  font: 600 1.8rem 'Poppins', sans-serif;
 }
 .no-questions p + p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4rem;
-  font-weight: 400;
+  font: 400 1.4rem 'Open Sans', sans-serif;
   margin-top: 1.3rem;
   line-height: 1.9rem;
 }
