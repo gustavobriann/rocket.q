@@ -39,7 +39,6 @@ textarea {
   font-size: clamp(14px, 1.6rem, 2vw);
 
   font-family: 'Open Sans', sans-serif;
-  /* font-family: 'Poppins', sans-serif; */
 }
 
 .content {
@@ -72,16 +71,12 @@ button,
   font-family: 'Poppins';
   font-weight: 500;
   line-height: 0;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   background: var(--blue);
   color: var(--white);
-
   transition: filter 0.2s;
-
   cursor: pointer;
 }
 

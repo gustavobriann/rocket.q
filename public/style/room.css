@@ -4,7 +4,6 @@
 
 #room header {
   width: 100%;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -69,7 +68,6 @@
 #question-form form footer > div {
   display: flex;
   align-items: center;
-
   color: var(--icons-details);
   font: 400 1.4rem 'Poppins', sans-serif;
 }
