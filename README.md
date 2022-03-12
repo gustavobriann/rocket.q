@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Roquet.Q.</h1>
+  <h1>Roquet.Q</h1>
 </div>
 
 <div align="center">
@@ -32,6 +32,6 @@
 <div>
   <h2>Considerações Finais</h2>
   <p>
-    Este projeto foi desenvolvido com a tutoria da <a href="https://github.com/jakeliny">Jakeliny Gracielly</a> no NLW Mission: Discover da <a href="https://www.rocketseat.com.br/">Rocketseat</a>.
+    Este projeto foi desenvolvido com a tutoria da <a href="https://github.com/jakeliny">Jakeliny Gracielly</a> no NLW Mission Discover da <a href="https://www.rocketseat.com.br/">Rocketseat</a>.
   </p>
 </div>
